@@ -1,8 +1,5 @@
 package haxe.ui.backend;
 
-import js.html.Element;
-import js.Browser;
-
 class AppBase {
     public function new() {
 
