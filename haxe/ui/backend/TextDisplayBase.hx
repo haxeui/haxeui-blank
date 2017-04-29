@@ -1,5 +1,7 @@
 package haxe.ui.backend;
 
+import haxe.ui.styles.Style;
+
 class TextDisplayBase {
     public function new() {
     }
@@ -169,4 +171,8 @@ class TextDisplayBase {
         _wordWrap = value;
         return value;
     }
+
+    public function applyStyle(style:Style) {
+    }
+    
 }
