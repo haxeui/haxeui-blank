@@ -1,5 +1,6 @@
 sudo: false
 language: haxe
+dist: trusty
 
 notifications:
   webhooks:
@@ -17,7 +18,7 @@ haxe:
   - development
 
 before_install:
-    - git clone https://github.com/haxeui/haxeui-core.git --depth=1
+    - git clone --branch $TRAVIS_BRANCH https://github.com/haxeui/haxeui-core.git --depth=1
     - haxelib dev haxeui-core haxeui-core
 
 
