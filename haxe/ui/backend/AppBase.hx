@@ -1,5 +1,7 @@
 package haxe.ui.backend;
 
+import haxe.ui.Preloader.PreloadItem;
+
 class AppBase {
     public function new() {
 
@@ -20,5 +22,9 @@ class AppBase {
 
     public function start() {
 
+    }
+    
+    private function buildPreloadList():Array<PreloadItem> {
+        return [];
     }
 }

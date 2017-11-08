@@ -98,7 +98,6 @@ class ComponentBase {
 
     public function removeImageDisplay() {
         if (_imageDisplay != null) {
-            _imageDisplay.dispose();
             _imageDisplay = null;
         }
     }
