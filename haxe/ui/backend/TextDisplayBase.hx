@@ -2,9 +2,12 @@ package haxe.ui.backend;
 
 import haxe.ui.assets.FontInfo;
 import haxe.ui.core.Component;
+import haxe.ui.core.TextDisplay.TextDisplayData;
 import haxe.ui.styles.Style;
 
 class TextDisplayBase {
+    private var _displayData:TextDisplayData = new TextDisplayData();
+
     public var parentComponent:Component;
     
     private var _text:String;
