@@ -112,8 +112,16 @@ class ComponentBase {
         return child;
     }
 
+    private function handleAddComponentAt(child:Component, index:Int):Component {
+        return child;
+    }
+
     private function handleRemoveComponent(child:Component, dispose:Bool = true):Component {
         return child;
+    }
+
+    private function handleRemoveComponentAt(index:Int, dispose:Bool = true):Component {
+        return null;
     }
 
     private function applyStyle(style:Style) {
