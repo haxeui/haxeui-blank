@@ -1,8 +1,6 @@
 package haxe.ui.backend;
 
-import haxe.Timer;
-
-class TimerBase {
+class TimerImpl {
     private var _timer:Timer;
 
     public function new(delay:Int, callback:Void->Void) {
